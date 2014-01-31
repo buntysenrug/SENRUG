@@ -14,7 +14,7 @@ public class TrainSearchActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.train_web);
 		
-		String url="www.google.co.uk";
+		String url="http://m.nationalrail.co.uk/pj/home";
 		view=(WebView) findViewById(R.id.webview1);
 		view.getSettings().setJavaScriptEnabled(true);
 		view.setWebViewClient(new WebViewClient());
