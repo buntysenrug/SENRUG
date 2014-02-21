@@ -42,6 +42,7 @@ public class GridActivity extends Activity {
 					startActivity(enquiry);
 				}
 				
+				
  
 			}
 
