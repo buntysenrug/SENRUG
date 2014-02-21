@@ -22,28 +22,40 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int black_overlay=0x7f040000;
     }
     public static final class drawable {
-        public static final int clipart_transport_483=0x7f020000;
-        public static final int find=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int mainscreen=0x7f020003;
-        public static final int news=0x7f020004;
-        public static final int train=0x7f020005;
-        public static final int vand=0x7f020006;
+        public static final int clipart_transport=0x7f020000;
+        public static final int clipart_transport_483=0x7f020001;
+        public static final int enquiry=0x7f020002;
+        public static final int find=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int mainscreen=0x7f020005;
+        public static final int news=0x7f020006;
+        public static final int screen=0x7f020007;
+        public static final int train=0x7f020008;
+        public static final int vand=0x7f020009;
     }
     public static final class id {
-        public static final int analogClock1=0x7f070000;
-        public static final int gridView1=0x7f070004;
-        public static final int grid_item_image=0x7f070001;
-        public static final int grid_item_label=0x7f070002;
-        public static final int label=0x7f070003;
-        public static final int webview1=0x7f070005;
+        public static final int analogClock1=0x7f070001;
+        public static final int button1=0x7f070008;
+        public static final int editText1=0x7f070003;
+        public static final int editText2=0x7f070005;
+        public static final int editText3=0x7f070007;
+        public static final int gridView1=0x7f07000c;
+        public static final int grid_item_image=0x7f070009;
+        public static final int grid_item_label=0x7f07000a;
+        public static final int imageView1=0x7f070000;
+        public static final int label=0x7f07000b;
+        public static final int textView1=0x7f070002;
+        public static final int textView2=0x7f070004;
+        public static final int textView3=0x7f070006;
+        public static final int webview1=0x7f07000d;
     }
     public static final class layout {
         public static final int activity_splash=0x7f030000;
         public static final int blank=0x7f030001;
-        public static final int icon=0x7f030002;
-        public static final int main_grid=0x7f030003;
-        public static final int train_web=0x7f030004;
+        public static final int enquiry=0x7f030002;
+        public static final int icon=0x7f030003;
+        public static final int main_grid=0x7f030004;
+        public static final int train_web=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f050000;

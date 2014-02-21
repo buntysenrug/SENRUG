@@ -46,6 +46,8 @@ public class ImageAdapter extends BaseAdapter{
 			imageView.setImageResource(R.drawable.news);
 		} else if (value.equals("Vandalism")){
 			imageView.setImageResource(R.drawable.vand);
+		}else if(value.equals("Enquiry")){
+			imageView.setImageResource(R.drawable.enquiry);
 		}
 
 	} else {

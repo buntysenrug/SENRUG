@@ -14,7 +14,7 @@ import android.widget.AdapterView.OnItemClickListener;
 public class GridActivity extends Activity {
 
 	GridView gridView;
-	static final String[] VALUES=new String[]{"Trains","Locate","Newsletter","Vandalism"};
+	static final String[] VALUES=new String[]{"Trains","Locate","Newsletter","Vandalism","Enquiry"};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -36,6 +36,10 @@ public class GridActivity extends Activity {
 				if(temp.equals("Trains")){
 					Intent trainsearch=new Intent("com.project.senrug.TRAINSEARCHACTIVITY");
 					startActivity(trainsearch);
+				}
+				if(temp.equals("Enquiry")){
+					Intent enquiry=new Intent("com.project.senrug.ENQUIRY");
+					startActivity(enquiry);
 				}
 				
  

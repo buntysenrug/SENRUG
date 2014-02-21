@@ -5,6 +5,7 @@ import com.packagemain.senrug.util.SystemUiHider;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -27,7 +28,7 @@ public class Splash extends Activity {
 		Thread timer=new Thread(){
 						public void run(){
 							try{
-								sleep(3000);
+								sleep(1500);
 							}catch(InterruptedException e){
 								e.printStackTrace();
 								
