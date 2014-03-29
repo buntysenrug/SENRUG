@@ -34,7 +34,7 @@ public class GridActivity extends Activity {
 				String temp= ((TextView) v.findViewById(R.id.grid_item_label)).getText().toString();
 				//System.out.print(temp);
 				if(temp.equals("Trains")){
-					Intent trainsearch=new Intent("com.project.senrug.TRAINSEARCHACTIVITY");
+					Intent trainsearch=new Intent("com.project.senrug.TABBED");
 					startActivity(trainsearch);
 				}
 				if(temp.equals("Enquiry")){

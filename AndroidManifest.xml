@@ -71,6 +71,22 @@
             </intent-filter>
         </activity>
         
+                <activity android:name=".Tabbed" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.project.senrug.TABBED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity android:name=".AlternateRoute" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.project.senrug.ALTERNATEROUTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
            
            
         
