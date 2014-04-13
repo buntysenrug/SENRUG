@@ -42,6 +42,11 @@ public class GridActivity extends Activity {
 					startActivity(enquiry);
 				}
 				
+				if(temp.equals("Locate")){
+					Intent enquiry=new Intent("com.project.senrug.LOCATEACTIVITY");
+					startActivity(enquiry);
+				}
+				
 				
  
 			}
