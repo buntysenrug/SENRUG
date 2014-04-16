@@ -264,8 +264,9 @@ containing a value of this type.
         public static final int main_grid=0x7f030005;
         public static final int map=0x7f030006;
         public static final int newsletter=0x7f030007;
-        public static final int tab=0x7f030008;
-        public static final int train_web=0x7f030009;
+        public static final int rounded_corner=0x7f030008;
+        public static final int tab=0x7f030009;
+        public static final int train_web=0x7f03000a;
     }
     public static final class string {
         public static final int app_name=0x7f06001b;

@@ -99,8 +99,9 @@ int layout icon 0x7f030004
 int layout main_grid 0x7f030005
 int layout map 0x7f030006
 int layout newsletter 0x7f030007
-int layout tab 0x7f030008
-int layout train_web 0x7f030009
+int layout rounded_corner 0x7f030008
+int layout tab 0x7f030009
+int layout train_web 0x7f03000a
 int string app_name 0x7f06001b
 int string auth_client_needs_enabling_title 0x7f060015
 int string auth_client_needs_installation_title 0x7f060016
