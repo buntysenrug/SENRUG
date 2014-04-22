@@ -47,6 +47,11 @@ public class GridActivity extends Activity {
 					startActivity(enquiry);
 				}
 				
+				if(temp.equals("Vandalism")){
+					Intent enquiry=new Intent("com.project.senrug.VANDALISM");
+					startActivity(enquiry);
+				}
+				
 				
  
 			}
