@@ -4,16 +4,8 @@ public class RssItem {
 	private String title;
 	private String link;
 	
-	public RssItem(){
-		this.setTitle("");
-		this.setLink("");
-	}
 	
-	public RssItem(String title,String description, String link){
-		this.setTitle(title);
-		this.setLink(link);
-	}
-
+	
 	public String getTitle() {
 		return title;
 	}
@@ -30,6 +22,12 @@ public class RssItem {
 	public void setLink(String link) {
 		this.link = link;
 	}
+	
+	@Override
+	public String toString() {
+		return title;
+	}
+
 	
 	
 

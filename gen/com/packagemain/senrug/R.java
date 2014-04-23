@@ -238,7 +238,7 @@ containing a value of this type.
         public static final int imageView1=0x7f050005;
         public static final int incident=0x7f050017;
         public static final int label=0x7f050011;
-        public static final int list=0x7f050014;
+        public static final int list_news=0x7f050014;
         public static final int map=0x7f050013;
         public static final int message=0x7f05000d;
         public static final int name=0x7f050009;
