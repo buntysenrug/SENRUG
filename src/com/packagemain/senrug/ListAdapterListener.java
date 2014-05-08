@@ -1,5 +1,6 @@
 package com.packagemain.senrug;
 
+import java.net.URL;
 import java.util.List;
 
 import android.app.Activity;
