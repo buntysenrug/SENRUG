@@ -2,6 +2,11 @@ package com.packagemain.senrug;
 
 
 import java.util.List;
+
+import com.parse.Parse;
+import com.parse.ParseAnalytics;
+import com.parse.PushService;
+
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -20,7 +25,8 @@ public class NewsLetter extends Activity{
 		super.onCreate(savedInstanceState);
 		// Set view
 				setContentView(R.layout.newsletter);
-
+			
+			
 				// Set reference to this activity
 				local = this;
 

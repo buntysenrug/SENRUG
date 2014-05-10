@@ -77,8 +77,7 @@ public class LocateActivity extends Activity{
 					dialog.dismiss();
 					Marker nearest=map.addMarker(new MarkerOptions().position(p).title(s));
 				    map.moveCamera(CameraUpdateFactory.newLatLngZoom(p, 15));
-				    //map.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);
-				   // Polyline line=map.addPolyline(new PolylineOptions().add((p),new LatLng(0,0)));
+				
 
 				    
 
