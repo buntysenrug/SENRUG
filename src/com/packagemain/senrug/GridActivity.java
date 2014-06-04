@@ -1,6 +1,7 @@
 package com.packagemain.senrug;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -48,6 +49,7 @@ public class GridActivity extends Activity {
 				}
 				
 				if(temp.equals("Vandalism")){
+										
 					Intent enquiry=new Intent("com.project.senrug.VANDALISM");
 					startActivity(enquiry);
 				}
@@ -64,6 +66,12 @@ public class GridActivity extends Activity {
 		});
 		
 		
+	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		//finish();
 	}
 	
 	

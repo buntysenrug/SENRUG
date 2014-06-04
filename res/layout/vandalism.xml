@@ -37,15 +37,6 @@
         android:text="Details of the Incident:- "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
-        android:id="@+id/send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/incident"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="Send" />
-
     <EditText
         android:id="@+id/incident"
         android:layout_width="320dp"
@@ -53,9 +44,28 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="25dp"
-        android:background="@drawable/back"
         android:ems="10"
         android:inputType="textCapSentences|textMultiLine"
         android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/incident"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="46dp"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/send"
+        android:layout_alignBottom="@+id/send"
+        android:layout_marginLeft="31dp"
+        android:layout_toRightOf="@+id/send"
+        android:text="Call Police" />
 
 </RelativeLayout>

@@ -107,7 +107,7 @@ public class Route extends FragmentActivity{
         @Override
         protected String doInBackground(String... urls) {
               //Get All Route values
-                    document = v2GetRouteDirection.getDocument(fromPosition, toPosition, Route_helper.MODE_DRIVING);
+                    document = v2GetRouteDirection.getDocument(fromPosition, toPosition, Route_helper.MODE_WALKING);
                     response = "Success";
               return response;
 
